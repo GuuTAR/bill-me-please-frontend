@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'NextJS Project',
-  description: 'NextJS + MUI + Firebase Authentication',
+  title: 'Bill Me Please!',
+  description: 'Bill calculator for group activities',
 }
 
 export const viewport: Viewport = {

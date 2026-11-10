@@ -1,20 +1,8 @@
-import { AppBar, List, ListItemIcon, Stack, styled, Typography } from '@mui/material'
+import { List, ListItemIcon, Stack, styled, Typography } from '@mui/material'
 
-import { APP_MENU_SIZE, NAVBAR_HEIGHT } from '@/data/global'
+import { APP_MENU_SIZE } from '@/data/global'
 
 import CoreButton from '@/views/components/core/CoreButton'
-
-export const DesktopTopbar = styled(AppBar)(({ theme }) => ({
-  position: 'fixed',
-  display: 'flex',
-  flexDirection: 'row',
-  top: 0,
-  right: 0,
-  height: NAVBAR_HEIGHT,
-  justifyContent: 'flex-end',
-  alignItems: 'center',
-  padding: theme.spacing(0, 3),
-}))
 
 export const DrawerContentWrapper = styled(Stack)(() => ({
   height: '100%',
@@ -59,8 +47,4 @@ export const MenuItemText = styled(Typography, {
 export const MenuItemComponentWrapper = styled(Stack)(({ theme }) => ({
   width: '100%',
   padding: theme.spacing(1, 0),
-}))
-
-export const MenuFooterContainer = styled(List)(({ theme }) => ({
-  padding: theme.spacing(1),
 }))

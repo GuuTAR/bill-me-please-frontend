@@ -1,11 +1,11 @@
 import { LANGUAGE } from '@/enum/global'
 
 export const APP_NAME: Record<LANGUAGE, string> = {
-  [LANGUAGE.ENGLISH]: 'NextJS Project',
-  [LANGUAGE.THAI]: 'NextJS Project',
+  [LANGUAGE.ENGLISH]: 'Bill Me Please!',
+  [LANGUAGE.THAI]: 'คิดตังเถอะ',
 }
 
 export const APP_DESCRIPTION: Record<LANGUAGE, string> = {
-  [LANGUAGE.ENGLISH]: 'NextJS + MUI + Firebase Authentication',
-  [LANGUAGE.THAI]: 'NextJS + MUI + Firebase Authentication',
+  [LANGUAGE.ENGLISH]: 'Bill calculator for group activities',
+  [LANGUAGE.THAI]: 'ตัวคำนวณค่าใช้จ่ายสำหรับกิจกรรมกลุ่ม',
 }
