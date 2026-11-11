@@ -6,6 +6,12 @@ export const Content = styled(Stack)(({ theme }) => ({
   gap: theme.spacing(2),
 }))
 
+export const Toolbar = styled(Stack)(() => ({
+  flexDirection: 'row',
+  alignItems: 'center',
+  justifyContent: 'flex-end',
+}))
+
 // The welcome header is hidden on mobile and tablet
 export const HeaderSlot = styled(Stack)(({ theme }) => ({
   [theme.breakpoints.down('md')]: {
